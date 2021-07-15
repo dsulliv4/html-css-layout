@@ -38,3 +38,32 @@ header > p {
   flex-wrap: wrap;
   width: 100%;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.card {
+  position: relative;
+  padding: 20px 35px;
+  height: 250px;
+  margin: 25px;
+  border-radius: 2%;
+  background-color: white;
+  box-shadow: 3px 3px 5px 6px #eee;
+}
+
+.card img {
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+
+}
+
+.card#calculator { border-top: 5px solid hsl(212, 86%, 64%);}
+.card#team-builder { border-top: 5px solid hsl(0, 78%, 62%);}
+.card#karma{ border-top: 5px solid hsl(34, 97%, 64%);}
+.card#supervisor { border-top: 5px solid hsl(180, 62%, 55%);}
