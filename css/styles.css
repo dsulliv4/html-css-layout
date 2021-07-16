@@ -31,23 +31,19 @@ header > p {
   font-weight: 200;
 }
 
-.row {
-  display: flex;
-  padding-top: 25px;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+  justify-items: center;
+  margin-bottom: 5em;
+
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
 
 .card {
-  position: relative;
   padding: 20px 35px;
   height: 250px;
   margin: 25px;
@@ -56,11 +52,20 @@ header > p {
   box-shadow: 3px 3px 5px 6px #eee;
 }
 
-.card img {
-  position: absolute;
-  bottom: 25px;
-  right: 35px;
+#calculator 
 
+#team-builder {
+ 
+ 
+
+}
+
+#karma {
+
+}
+
+#supervisor {
+ 
 }
 
 .card#calculator { border-top: 5px solid hsl(212, 86%, 64%);}
